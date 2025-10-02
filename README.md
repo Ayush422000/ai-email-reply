@@ -1,7 +1,7 @@
 # 📧 AI Email Reply Generator  
 
 An **AI-powered Gmail Reply Generator** that helps users compose smart, tone-adjusted replies directly inside Gmail.  
-Built with **Spring Boot (backend)**, **React + Vite + Material UI (frontend)**, and a **Chrome Extension** for seamless Gmail integration.  
+Built with **Spring Boot (backend)**, **React + Vite + Material UI (frontend)** and a **Chrome Extension** for seamless Gmail integration.  
 
 ---
 
