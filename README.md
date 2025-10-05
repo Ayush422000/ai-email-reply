@@ -42,9 +42,9 @@ ai-email-reply-generator/
 └── README.md
 
 ---
-
-![Desktop UI](src/assets/images/image1.png)
 ![Mobile UI](src/assets/images/image2.png)
+![Desktop UI](src/assets/images/image1.png)
+
 
 ## ⚙️ Setup & Installation  
 
