@@ -25,27 +25,26 @@ Built with **Spring Boot (backend)**, **React + Vite + Material UI (frontend)** 
 
 ## 📂 Project Structure  
 ai-email-reply-generator/
-
 │
 ├── backend/ # Spring Boot application (APIs, services)
 │ ├── src/main/java/...
 │ └── pom.xml
-│
 ├── frontend/ # React + Vite + Material UI frontend
 │ ├── src/
 │ ├── vite.config.js
 │ └── package.json
-│
 ├── extension/ # Chrome Extension files
 │ ├── manifest.json
 │ ├── background.js
 │ ├── content.js
 │ ├── popup.html
 │ └── popup.js
-│
 └── README.md
 
 ---
+
+![Desktop UI](src/assets/images/image1.png)
+![Mobile UI](src/assets/images/image2.png)
 
 ## ⚙️ Setup & Installation  
 
@@ -62,4 +61,5 @@ npm install
 npm run dev
 
 Runs on: http://localhost:5173
+
 
