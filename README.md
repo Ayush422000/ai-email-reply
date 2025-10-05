@@ -48,7 +48,7 @@ ai-email-reply-generator/
 
 ## ⚙️ Setup & Installation  
 
-### 1️⃣ Clone the Repository  
+### Clone the Repository  
 ```bash
 git clone https://github.com/your-username/ai-email-reply-generator.git
 cd ai-email-reply-generator
