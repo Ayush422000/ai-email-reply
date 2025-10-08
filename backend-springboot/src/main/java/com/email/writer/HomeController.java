@@ -1,13 +1,18 @@
-package com.email.writer;  // same package as your main application
+package com.email.writer;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.HttpStatus;
 
 @RestController
+@RequestMapping("/api/email")
+@CrossOrigin(origins = "*") // allow frontend to call it — you can restrict later
 public class HomeController {
 
-    @GetMapping("/api")
-    public String home() {
-        return "Email Reply Generator API is running!";
+    @PostMapping("/generate")
+    public ResponseEntity<String> generateEmail(@RequestBody String prompt) {
+        // TODO: Replace this mock logic with your real AI integration
+        String reply = "AI-generated reply for: " + prompt;
+        return new ResponseEntity<>(reply, HttpStatus.OK);
     }
 }
