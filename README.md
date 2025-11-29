@@ -34,6 +34,7 @@ Chrome Extension Setup
 
 ---
 
+![Desktop UI](src/assets/images/image2.png)
 ![Desktop UI](src/assets/images/image1.png)
 
 
